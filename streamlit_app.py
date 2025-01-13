@@ -36,7 +36,7 @@ with cols[0]:
 
     # Selección de la función de activación
     st.subheader("Función de activación")
-    activation_function = st.selectbox("Elige la función de activación", ["Sigmoid", "Relu", "Tanh", "Binary"])
+    activation_function = st.selectbox("Elige la función de activación", ["sigmoid", "relu", "tanh", "binary"])
 
 with cols[1]:
     # Entrada del bias
